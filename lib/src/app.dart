@@ -9,7 +9,7 @@ class App extends StatelessWidget {
     return DetailsProvider(
       child: StoriesProvider(
         child: MaterialApp(
-          debugShowCheckedModeBanner: true,
+          debugShowCheckedModeBanner: false,
           title: "Hacker News",
           theme: ThemeData(
             primarySwatch: Colors.orange
